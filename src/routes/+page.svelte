@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Build smarter. Start earlier."
+	subtitle="Streamline pre-construction workflows and cut delays."
+	imageSrc="/generated/image-a-group-of-construction-project-managers.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/procore.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/turner.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/skanska.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/gilbane.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
