@@ -1,9 +1,6 @@
 <script lang="ts">
 	// Components
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
-
-	// Icons
-	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
 	import Story from "./Story.svelte";
 	import SecondaryHero from "$lib/components/layout/hero-sections/SecondaryHero.svelte";
 	import Culture from "$lib/components/layout/Culture.svelte";
@@ -11,94 +8,42 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Precision",
+			description: "Every workflow automated, every stakeholder connected, every detail tracked—because successful projects start with flawless pre-construction coordination."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Partnership",
+			description: "We integrate seamlessly with your existing systems and teams, building on what works while fixing what doesn't."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Performance",
+			description: "Reducing project delays by 40% isn't just our promise—it's the measurable outcome of purpose-built pre-construction technology."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Where projects start right"
+	subtitle="Built for those who build together"
+	imageSrc="/generated/image-a-diverse-group-of-construction-professi.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"PreconOS started with a simple frustration shared by nearly every construction project manager we spoke to—winning a hard-fought bid, only to have pre-construction chaos eat into timelines and margins. Buried in spreadsheets, chasing subcontractor updates across disjointed email threads, and manually reconciling takeoffs, they were losing up to 40 hours a week—before a single brick was laid. It wasn't the jobsite causing delays and overruns. It was everything leading up to it.",
+		"So we built PreconOS, a purpose-built platform for coordinating pre-construction with clarity and speed. Our integrated workflow automation connects estimators, architects, subcontractors, and stakeholders in real time—so information moves faster, decisions are clearer, and every bid has the structure to succeed. Designed to work with systems like Procore and P6, PreconOS fits into your existing stack without disruption. We started small, piloting with mid-size general contractors. But the impact was immediate—and measurable.",
+		"Today, PreconOS supports over 10,000 active projects, helping ENR 400 contractors and growing firms reduce project delays by 40% and eliminate the communication gaps that drive up costs. Our mission is to bring order, efficiency, and reliability to the $1.8 trillion construction industry—starting where it matters most: pre-construction. Because getting it right up front means fewer surprises, less rework, and more profitable jobs for everyone down the line."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
-
-<!-- StakeholderGrid Section -->
-<StakeholderGrid
-	generating
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+<Culture {values} />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to build it right?"
+	subtitle="Before you build it"
+	description="Stop losing 40+ hours a week to manual takeoffs and fragmented communication. Join the ENR 400 general contractors already reducing project delays by 40% with PreconOS."
+	imageSrc="/generated/image-a-professional-construction-project-mana.webp"
 />
