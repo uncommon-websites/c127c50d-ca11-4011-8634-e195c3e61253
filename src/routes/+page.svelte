@@ -10,97 +10,97 @@
 </script>
 
 <Hero
-	title="Build smarter. Start earlier."
-	subtitle="Streamline pre-construction workflows and cut delays."
-	imageSrc="/generated/image-a-group-of-construction-project-managers.webp"
+	title="From weeks to hours. From guesswork to certainty."
+	subtitle="Transform 4+ week property feasibility evaluations into 24-hour human-reviewed reports using agentic AI workflows and advanced diffusion models."
+	imageSrc="/generated/image-a-group-of-real-estate-developers-review.webp"
 	centered={false}
 />
 <LogoScroller 
-	label="Trusted by industry leaders"
+	label="Trusted by leading real estate firms"
 	logoUrls={[
-		'https://cdn.brandfetch.io/procore.com/w/400/h/400/logo',
-		'https://cdn.brandfetch.io/turner.com/w/400/h/400/logo',
-		'https://cdn.brandfetch.io/skanska.com/w/400/h/400/logo',
-		'https://cdn.brandfetch.io/gilbane.com/w/400/h/400/logo'
+		'https://logo.clearbit.com/blackstone.com',
+		'https://logo.clearbit.com/brookfield.com',
+		'https://logo.clearbit.com/prologis.com',
+		'https://logo.clearbit.com/simon.com'
 	]}
 />
 
 <Summary
 	title="What we do"
-	text="PreconOS connects all stakeholders on a single platform to streamline pre-construction workflows for general contractors managing large commercial projects. We eliminate the 40+ hours per week wasted on manual takeoffs and fragmented communication that cause costly delays. Our integrated workflow automation reduces project delays by 40% while helping contractors win more profitable bids through faster, more accurate pre-construction coordination."
+	text="Davis transforms property feasibility evaluations from 4+ week processes into 24-hour human-reviewed reports. We serve mid-sized real estate developers in California and international investment funds with agentic AI workflows and advanced diffusion models. Our platform eliminates the weeks of uncertainty that delay critical investment decisions, enabling faster market entry and more confident capital deployment at $10k–$20k per feasibility evaluation."
 />
 
 <Testimonials
 	testimonials={[
 		{
-			name: "Miguel Rodriguez",
-			position: "VP of Preconstruction",
-			company: "Meridian Construction",
+			name: "Sarah Martinez",
+			position: "Development Director",
+			company: "Pacific Coast Properties",
 			quote:
-				"PreconOS cut our takeoff time from 8 hours to 2 hours per project. We're winning 30% more bids because we can respond faster and more accurately than our competitors.",
-			image: "/generated/image-a-professional-headshot-of-miguel-rodrig.webp"
+				"Davis reduced our feasibility timeline from 6 weeks to 24 hours. We closed on three prime California sites this quarter because we could move faster than competitors stuck in traditional evaluation cycles.",
+			image: "/generated/image-a-property-investment-meeting-room-fille.webp"
 		},
 		{
-			name: "Jennifer Chen",
-			position: "Project Director",
-			company: "Summit Builders",
+			name: "James Chen",
+			position: "Investment Principal",
+			company: "Golden Gate Capital",
 			quote:
-				"We eliminated $2.3M in change orders last quarter alone. The integrated communication eliminated the gaps that used to cost us big on material delays and rework.",
-			image: "/generated/image-a-professional-headshot-of-jennifer-chen.webp"
+				"The AI-powered analysis caught zoning issues that would have cost us $4.2M in delays. Davis's diffusion models showed us design possibilities we never considered, leading to 15% higher projected returns.",
+			image: "/generated/image-a-modern-real-estate-development-team-me.webp"
 		},
 		{
-			name: "David Thompson",
-			position: "Construction Executive",
-			company: "Atlas Development",
+			name: "Michael Torres",
+			position: "Managing Partner",
+			company: "Westbridge Development",
 			quote:
-				"Our project timelines improved by 6 weeks on average. The automated workflows connect our entire team from architects to subcontractors in real-time.",
-			image: "/generated/image-a-professional-headshot-of-david-thompso.webp"
+				"We've scaled from 12 to 35 feasibility evaluations per quarter using Davis. The human-reviewed reports give us confidence to deploy capital faster while maintaining our rigorous due diligence standards.",
+			image: "/generated/image-a-group-of-real-estate-investment-fund-e.webp"
 		}
 	]}
 />
 
 <Features
 	title="Core capabilities"
-	subtitle="Streamline pre-construction workflows that determine project success"
+	subtitle="Advanced AI workflows that transform property feasibility evaluation"
 	features={[
 		{
-			title: "Automated takeoff intelligence",
-			description: "Transform 40+ hours of manual takeoffs into minutes with AI-powered quantity extraction. Win more profitable bids through faster, more accurate estimating.",
-			image: "/generated/image-a-construction-team-gathered-around-a-la.webp"
+			title: "Agentic AI workflow orchestration",
+			description: "Deploy autonomous AI agents that coordinate complex feasibility analysis tasks. Our agentic systems handle zoning research, market analysis, and regulatory compliance checks simultaneously, reducing 4+ week timelines to 24 hours.",
+			image: "/generated/image-a-presentation-on-property-feasibility-a.webp"
 		},
 		{
-			title: "Unified stakeholder communication",
-			description: "Connect all subcontractors, suppliers, and team members on a single platform. Eliminate fragmented communication that causes costly delays and misaligned expectations.",
-			image: "/generated/image-a-busy-construction-site-with-workers-ac.webp"
+			title: "Advanced diffusion model visualization",
+			description: "Generate photorealistic property renderings and design alternatives using cutting-edge diffusion models. Visualize development potential with unprecedented accuracy, enabling faster stakeholder alignment and investment decisions.",
+			image: "/generated/image-a-california-property-development-site-d.webp"
 		},
 		{
-			title: "Predictive project risk analysis",
-			description: "Identify potential delays and cost overruns before they impact your timeline. Our analytics reduce project delays by 40% through proactive risk management.",
-			image: "/generated/image-a-group-of-construction-workers-on-site-.webp"
+			title: "California market intelligence",
+			description: "Leverage deep California real estate data and regulatory expertise. Our specialized knowledge of local zoning, permitting, and market dynamics gives developers competitive advantages in the nation's most complex market.",
+			image: "/generated/image-a-california-real-estate-development-pro.webp"
 		},
 		{
-			title: "Seamless legacy integration",
-			description: "Work within your existing Procore and P6 workflows without disruption. Phased implementation ensures smooth adoption while preserving established processes.",
-			image: "/generated/image-a-team-of-architects-and-engineers-in-an.webp"
+			title: "Human-reviewed quality assurance",
+			description: "Every AI-generated report undergoes expert human review by seasoned real estate professionals. This hybrid approach ensures accuracy and reliability while maintaining the speed advantages of automated analysis.",
+			image: "/generated/image-a-review-of-a-real-estate-feasibility-re.webp"
 		},
 		{
-			title: "Real-time collaboration workspace",
-			description: "Enable instant updates and decision-making across all project stakeholders. Reduce coordination time while maintaining complete project visibility and control.",
-			image: "/generated/image-builders-and-architects-at-a-constructio.webp"
+			title: "International fund integration",
+			description: "Seamlessly serve global investment funds with standardized reporting formats and multi-currency analysis. Our platform scales from California-focused developers to international institutional investors.",
+			image: "/generated/image-a-property-investment-meeting-room-fille.webp"
 		},
 		{
-			title: "Intelligent bid optimization",
-			description: "Leverage historical data and market insights to optimize bid strategies. Increase win rates on profitable projects through data-driven pre-construction planning.",
-			image: "/generated/image-construction-bid-documents-with-optimiza.webp"
+			title: "Rapid pilot deployment",
+			description: "Start with low-risk pilot programs that run alongside existing processes. Prove ROI on 2-3 properties before scaling to full implementation, ensuring smooth adoption and immediate value demonstration.",
+			image: "/generated/image-california-real-estate-development-proje.webp"
 		}
 	]}
 />
 <AboutTeaser />
 <CallToAction 
-	title="Still stuck in manual workflows?"
-	subtitle="See how much time your team could be saving."
-	description="Let us show you how PreconOS reduces delays, frees up your estimators, and helps win more bids—all without disrupting your current tools. Start with a pilot program that runs alongside your existing Procore and P6 workflows."
-	imageSrc="/generated/image-a-cheerful-construction-project-manager-.webp"
+	title="Still waiting weeks for feasibility reports?"
+	subtitle="See how Davis transforms your evaluation timeline."
+	description="Let us show you how Davis reduces 4+ week feasibility evaluations to 24 hours with human-reviewed accuracy. Start with a pilot program on 2-3 properties to prove ROI before scaling to your full pipeline."
+	imageSrc="/generated/image-california-real-estate-development-proje.webp"
 	callsToAction={[
 		{
 			href: "/demo",

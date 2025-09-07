@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Marcus Rodriguez",
+		name: "Alex Chen",
 		role: "Founder & CEO",
-		image: "/generated/image-a-professional-construction-executive-po.webp"
+		image: "/generated/image-a-professional-portrait-of-a-real-estate.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"Honestly, I didn't plan to start a company. I just got tired of watching 8-month delays get blamed on the field when the real issues started in precon."`}
+				text={`"After watching developers wait 6+ weeks for feasibility reports that often missed critical issues, I knew AI could do better. We're not just faster—we're more thorough."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
